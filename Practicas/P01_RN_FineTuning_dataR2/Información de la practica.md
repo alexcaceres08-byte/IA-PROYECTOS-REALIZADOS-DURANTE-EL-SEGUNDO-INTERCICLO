@@ -80,11 +80,38 @@ carpeta llamado como`Examen redes neuronales`, debidamente organizado y document
 ---
 
 ## Resultados cuantificables
-El desempeño del modelo se evaluó mediante métricas cuantificables, tales como:
+## Resultados cuantificables
+El desempeño del modelo fue evaluado comparando una red neuronal base frente a una
+red neuronal optimizada mediante técnicas de *Fine Tuning*, utilizando validación
+cruzada y métricas estándar de clasificación.
 
-- Accuracy:
-- Precision:
-- Recall:
-- F1-Score:
+### Modelo base (Red Neuronal sin optimización)
+El modelo base fue evaluado mediante validación cruzada con 5 folds, obteniendo los
+siguientes resultados promedio:
+
+- Accuracy promedio (validación cruzada): **0.5583**
+
+Este resultado evidencia que el modelo inicial presenta dificultades para generalizar,
+sirviendo como línea base para el proceso de optimización.
+
+### Modelo optimizado (Red Neuronal con Fine Tuning)
+Tras aplicar *Grid Search* y validación cruzada (*K = 5*), el modelo optimizado obtuvo
+una mejora significativa en su desempeño:
+
+- Accuracy promedio (validación cruzada): **0.8083**
+- Mejora neta de Accuracy: **25.0 %**
+
+Adicionalmente, en la evaluación final del modelo optimizado se obtuvieron las
+siguientes métricas:
+
+- Accuracy: **0.9583**
+- Precision: **1.0000**
+- Recall: **0.9167**
+- F1-Score: **0.9565**
+
+Estos resultados confirman que el proceso de *Fine Tuning* permitió incrementar de
+forma sustancial la capacidad de generalización del modelo, validando la importancia
+del ajuste de hiperparámetros en redes neuronales.
+
 
 
