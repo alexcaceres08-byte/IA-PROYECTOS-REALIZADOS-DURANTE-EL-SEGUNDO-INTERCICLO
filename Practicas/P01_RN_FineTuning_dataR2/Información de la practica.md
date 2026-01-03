@@ -75,7 +75,7 @@ cruzada, reduciendo el sobreajuste y mejorando la capacidad de generalización.
 
 ## Código
 El código fuente desarrollado para esta práctica se encuentra disponible en la
-carpeta llamado como`Examen redes neuronales`, debidamente organizado y documentado para su reproducción.
+carpeta llamado como`Examen_Neuronas_XavierCaceres`, debidamente organizado y documentado para su reproducción.
 
 ---
 
